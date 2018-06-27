@@ -1,0 +1,24 @@
+{\"cmdType\":\"batchSavePedestrian\",\"list\":[
+{
+\"Age\":\"儿童\"
+,\"capture_resource_id\":\"bb3620f56e624d76ad7e660e64020819\"
+,\"capture_time\":\"2018-01-02 22:15:20\"
+,\"feature_code\":\"ljChvYQCOT0Qwj0+ndqPvb8oUr28rkg7a/19vTrIm71RQIK9Ps/ovbxAzLsmZqG5iNudPX9lKD0QBMa9k/V4PJipuj1A/3q9Ke+uve5ipr3LAD89wQMlvLkGXD0d6DA89ek/vDogC70oivc9czrhPWPn0rqcxuW8K4XVPSDvlD2SjC89GVgDvsSYGT2lU3+6s7qxvM9WAz3px728qyNwvecMFD594uG7q7VLPLakA72GEM+93VE9vYRlkLyTJJc9FdOGPW4wBT7ccn69ty+APbCMGj3Lnke93BoaPRj4oTxcBYc9u1BJPhC7kj38BW46KpJ5vYxdCT6XX8w9X8ObPFg7Mr04Rqg9V5q1vBLEezzWarg9dGKjPTmCtr1zQro7GAtsPRoBPr04XHI7scalPL94jr0IKJU8DOIHPcPFUz0iLMi9Q6qovbKRnrwzAJu8S4sCPc01LDzy4kU8s2sbPoxOKD1XRjA9vtn5PPTGBDuiwRW+w7kBvCIXhz2THO08g7yfPRg3WT35c1G9b2g9PfDlzbzEhKq9iRIOPbUQ6LxPfE+9H9CyvEy+VLxybAM87cuJPSj1uDwekho+sPStPbaQJL2qFOg9vFwVvbJ4F72YR469jiX8vXxUHrtxkEg9M2aGPHsg2jr5FoO8zL8DPXuwuDxKndE9rokfPrm3C71z/qu6CGBbPKEKhzwQwWE80dMnvc81m7xpSZ+9Kld9vf2I7L3na0a9MBpaPdWAlj0R2wG+7ScVvcJwxD00IUq9ljzevOMC7zsnCJA9GHPCuzBKtD3Ldcs96A/QPIP+gz12IUA9rgagPbi+DD3JpBA997McPGTmiT2CpZW9RMvcPX7ljr2qaAq9JVCEOxjLVL3Vf9E7BTOKvDF2Az2RmC88BaBevce+Rr31MzO80QATPtftST0XTgQ88GAcPdLt6rxe/zu9XCNoPJ1D37x9Qi89sjhHPep6Ib3PnyC8W/ILPAaP5TyA9Zg9ld4cPUL3lr2qV0o97vsZvXUUgz03nRS8kvWbPNHyNT15p5W8Z2J4PBRQnr1W05w97wy6PSQUmzuh0Q49Y96SPaIF6zzC8qM85JcrvQnNsrw3YlO8nk+FPLhiWD6TUKc9YIm6PcrDMjzpi3+9Tf3zvKXFlD39h2o9oau+PN0nZL29Jkg97A6zPA0hUL24NXY9204OPg0Lhz3Fq5e99aUEvTxKCr0RnUO9XdSlO9XDkT0gWtC8SyLFPCnRhDxwOxg934WzPG7ALT1dY7o8nN7mvLOtwrw5CXK88gJTvXnE+zwxgF+8knQVvaFypDxSzkq8AHiUPK4I9Dw306C9kgydPS8KgTstxAe9XiVPvQ6jdb17Y4I8Cb5SPQ==\"
+,\"Glasses\":\"无眼镜\"
+,\"Hat\":\"未戴帽子\"
+,\"major_capture_image_url\":\"http://10.82.27.21:9001/p/1_b6wFLXnC2CwO6M4GwhfX7iZ_1_2_UBPrX_X78_65b3\"
+,\"minor_capture_image_url\":\"http://10.82.27.21:9001/p/1_b6wFLXnC2CwO6M4GwhfX7iZ_1_2_UBPrX_X78_65b3?x=1068&y=719&width=138&height=222\"
+,\"Sex\":\"男\"
+,\"Orientation\":\"前\"
+,\"Knapsack\":\"未确定\"
+,\"MessengerBag\":\"非斜挎包\"
+,\"Barrow\":\"无手推车\"
+,\"trolley_case\":\"\"
+,\"BottomType\":\"\"
+,\"BottomColor\":\"灰\"
+,\"UpperTexture\":\"格子\"
+,\"UpperType\":\"长袖\"
+,\"UpperColor\":\"灰\"
+,\"Mask\":\"无口罩\"
+}]}
+

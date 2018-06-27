@@ -1,0 +1,18 @@
+{\"cmdType\":\"batchSaveNonMotorVehicle\",\"list\":[
+{\"accessory\":\"\"
+,\"Orientation\":\"正面\"
+,\"capture_resource_id\":\"4fbd64d01de94d0e8e0eff2f839d4072\"
+,\"capture_time\":\"2017-11-30 00:18:41\"
+,\"car_type\":\"三轮车（无蓬&无封闭）\"
+,\"upper_color\":\"红色车身\"
+,\"feature_code\":\"\"
+,\"glasses\":\"\"
+,\"hat\":\"\"
+,\"major_capture_image_url\":\"http://10.82.13.230:9011/p/1_b6mwlA5vamZd5zpQ2fKzuIf_0_17_1WAtI3_1to7_9352\"
+,\"minor_capture_image_url\":\"http://10.82.13.230:9011/p/1_b6mwlA5vamZd5zpQ2fKzuIf_0_17_1WAtI3_1to7_9352?x=1140&y=509&width=192&height=178\"
+,\"mouth_muffle\":\"\"
+,\"nationality\":\"\"
+,\"sex\":\"\"
+,\"upper_body_texture\":\"\"
+,\"upper_clothes_colour\":\"\"}
+]}
