@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LambdaTest {
 	public static void main(String[] args) {
-		System.out.println("====================jdk1.8版本前新特性Lambda,list遍历======================");
+		System.out.println("===============1=====jdk1.8版本前新特性Lambda,list遍历======================");
 		String[] strArr={"one","tow","three"};
 		List<String> strList = Arrays.asList(strArr);
 		for (String str:strList){
