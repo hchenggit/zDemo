@@ -1,46 +1,54 @@
 package my.study.test.ice;
 
+import myHelloWorld.HelloWorldPrx;
+import myHelloWorld.HelloWorldPrxHelper;
+
+/**
+ * iceå®¢æˆ·ç«¯
+ * @author huangch
+ * Since:JDK 7
+ * Date:2018-7-3ä¸‹åˆ3:10:20
+ * @Copyright2018,huangch@szinfinova.com All Rights Reserved
+ */
 public class Client {
-	public static void main(String[] args)
-	  {
-	    int status = 0;
-	    // CommunicatorÊµÀı
+
+	/**
+	 * Ice.ObjectPrx base = ic.stringToProxy("SimplePrinter:tcp -h 127.0.0.1 -p 10000");
+	 * @sober , 2018-6-10ä¸‹åˆ3:26:31
+	 */
+	public static void main(String[] args) {
+		int status = 0;
+	    // Communicatorå®ä¾‹
 	    Ice.Communicator ic = null;
-	    try
-	    {
-	      // µ÷ÓÃIce.Util.Initialize()³õÊ¼»¯Ice run time
+	    try{
+	      // è°ƒç”¨Ice.Util.Initialize()åˆå§‹åŒ–Ice run time
 	      ic = Ice.Util.initialize(args);
-
-	      //   ¸ù¾İservantµÄÃû³ÆÒÔ¼°·şÎñÆ÷ip¡¢¶Ë¿Ú»ñÈ¡Ô¶³Ì·şÎñ´úÀí
-	      Ice.ObjectPrx base = ic.stringToProxy("SimplePrinter:default -p 10000");
-
-	      // ½«ÉÏÃæµÄ´úÀíÏòÏÂ×ª»»³ÉÒ»¸öPrinter½Ó¿ÚµÄ´úÀí
+	      //   æ ¹æ®servantçš„åç§°ä»¥åŠæœåŠ¡å™¨ipã€ç«¯å£è·å–è¿œç¨‹æœåŠ¡ä»£ç†
+	      Ice.ObjectPrx base = ic.stringToProxy("SimplePrinter:tcp -h 10.22.2.27 -p 10000");
+	      // å°†ä¸Šé¢çš„ä»£ç†å‘ä¸‹è½¬æ¢æˆä¸€ä¸ªPrinteræ¥å£çš„ä»£ç†
 	      HelloWorldPrx helloWorld = HelloWorldPrxHelper.checkedCast(base);
-
-	      // Èç¹û×ª»»³É¹¦
-	      if (helloWorld == null)
-	      {
+	      // å¦‚æœè½¬æ¢æˆåŠŸ
+	      if (helloWorld == null){
 	        throw new Error("Invalid proxy");
 	      }
-
-	      // µ÷ÓÃÕâ¸ö´úÀí£¬½«×Ö·û´®´«¸øËü
-	      helloWorld.say("bar");
-
-	    } catch (Ice.LocalException e)
-	    {
+	      // è°ƒç”¨è¿™ä¸ªä»£ç†ï¼Œå°†å­—ç¬¦ä¸²ä¼ ç»™å®ƒ
+	      helloWorld.say("ä½ å¥½å—ï¼");
+	      helloWorld.say("å¤§å®¶å¥½ï¼");
+	      helloWorld.say("æ‰æ˜¯çœŸçš„ï¼");
+	      
+	      helloWorld.s
+	    } catch (Ice.LocalException e){
 	      e.printStackTrace();
 	      status = 1;
-	    } catch (Exception e)
-	    {
+	    } catch (Exception e){
 	      e.printStackTrace();
 	      status = 1;
-	    } finally
-	    {
-	      if (ic != null)
-	      {
+	    } finally{
+	      if (ic != null){
 	        ic.destroy();
 	      }
 	    }
 	    System.exit(status);
-	  }
+	}
+
 }
