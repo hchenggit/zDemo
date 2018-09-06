@@ -1,0 +1,40 @@
+[[1,1514995904000,1529488309000,\\\"4fbd64d01de94d0e8e0eff2f839d4072\\\",\\\"http://10.82.13.230:9011/p/1_b6mwlA5vamZd5zpQ2fKzuIf_0_17_1WAtI3_1to7_9352\\\",\\\"http://10.82.13.230:9011/p/1_b6mwlA5vamZd5zpQ2fKzuIf_0_17_1WAtI3_1to7_9352?x=1140&y=509&width=192&height=178\\\",\\\"三轮车（无蓬&无封闭）\\\",null,null,\\\"正面\\\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]
+[[['2985105',1529596803000,1529596811000,'6cfb9ae639ee4299b509c2fbedc07d0d','http://10.82.27.21:9005/p/1_b6oTIGbxBB1ah4HhSwlOdfb_2_23_1S38kx_13VB_a6a9','http://10.82.27.21:9005/p/1_b6oTIGbxBB1ah4HhSwlOdfb_2_23_1S38kx_13VB_a6a9?x=1210&y=545&width=305&height=244','本田','雅阁','20082010','白色','轿车','车头','蓝','单牌','蓝牌','粤BH193F','','否','','','','否','是','否','','4','kZV/QA==']]]
+[[\\"6934422\\",1532053906000,1532053922000,\\"6cfb9ae639ee4299b509c2fbedc07d0d\\",\\"http://10.82.27.21:9005/p/1_b6PDEbgzTBmY5vZCQkMwNue_0_22_1WtxXo_1dpW_ae5\\",\\"http://10.82.27.21:9005/p/1_b6PDEbgzTBmY5vZCQkMwNue_0_22_1WtxXo_1dpW_ae5?x=456&y=117&width=130&height=221\\",\\"男\\",\\"中年\\",\\"后\\",\\"无眼镜\\",\\"未背双肩包\\",\\"未拎东西\\",\\"非斜挎包\\",\\"非单肩包\\",\\"未打伞\\",\\"短发\\",\\"未戴帽子\\",\\"无口罩\\",\\"深灰\\",\\"长袖\\",\\"纯色\\",\\"深灰\\",\\"长裤\\",\\"无拉杆箱\\",\\"无手推车\\",\\"未抱小孩\\",\\"1\\",\\"GvK3QJZvpUBrc0tBfpDJQNcCqUDItLFB+pj+QD+1g0GoIV9AVy6WQA==\\"]]
+
+
+
+[[\"4448254\",1532053950000,1532053957000,\"5a23ba7185fb41db9454f2f0af9fcc2d\",\"http://10.82.27.21:9005/p/1_b6PDEbgzTBmY5vZCQkMwNue_0_22_20XTzB_11aY_73b1\",\"http://10.82.27.21:9005/p/1_b6PDEbgzTBmY5vZCQkMwNue_0_22_20XTzB_11aY_73b1?x=914&y=266&width=353&height=543\",\"铃木\",\"天语SX4\",\"2009\",\"黄色\",\"轿车\",\"车头\",\"蓝\",\"单牌\",\"军车\",\"VM3WKZ8\",\"\",\"否\",\"\",\"\",\"\",\"否\",\"否\",\"否\",\"\",\"4\",\"\"]]
+
+[[\"757474\",1529596809000,1529596819000,\"247f2f834138417ea98e82552efd78f1\",\"http://10.82.27.21:9005/p/1_b6oTIGbxBB1ah4HhSwlOdfb_2_23_1SkPBN_WWi_2c50\",\"http://10.82.27.21:9005/p/1_b6oTIGbxBB1ah4HhSwlOdfb_2_23_1SkPBN_WWi_2c50?x=672&y=535&width=226&height=276\",\"摩托车\",\"男\",\"青年\",\"前\",\"无眼镜\",\"未背双肩包\",\"未拎东西\",\"非斜挎包\",\"非单肩包\",\"未打伞\",\"短发\",\"未戴帽子\",\"无口罩\",\"黑\",\"短袖\",\"花纹\",\"黑\",\"长裤\",\"无拉杆箱\",\"无手推车\",\"未抱小孩\",\"3\",\"NF0bQT3p6EAxV5lAw+ALQaiklD4=\"]]
+
+
+
+[action.dbsource.change
+, alarm.log.reply, 
+deviceModel.event.changed, 
+event.alarmsource.active.total, 
+event.alarmsource.alarm, 
+event.analysistask.add, 
+event.analysistask.del, 
+event.analysistask.s1clean, 
+event.analysistask.taskState, 
+event.analysistask.update, 
+event.camera.add, 
+event.camera.del, 
+event.camera.set, 
+event.collectedview.add, 
+event.collectedview.delete, 
+event.data.finish, 
+event.database.config, 
+event.group.add, event.group.del, event.group.state, event.group.update, event.layout.add, event.layout.del, 
+event.layout.update, event.layoutunit.add, event.layoutunit.binding, event.layoutunit.del, event.layoutunit.update, 
+event.license.update, event.mapCameraInfo.del, event.org.add, event.org.addFav, event.org.addFavRes, event.org.del, 
+event.org.delFav, event.org.delFavRes, event.org.parentChange, event.org.update, event.org.updateFav, 
+event.record.search.finish, event.resource.status, event.resourcezonning.add, event.resourcezonning.del, 
+event.resourcezonning.update, event.role.add, event.role.del, event.role.update, event.sasschema.add, 
+event.sasschema.delete, event.searchtask.add, event.searchtask.delete, event.secschemanode.add, event.secschemanode.delete, 
+event.server.update, event.serverAlarm.status, event.smtscheme.add, event.system.tip, event.systemconfig.add, 
+event.systemconfig.update, event.taskschema.add, event.taskschema.delete, event.taskschema.update, event.tasksearch.done, 
+event.tvwall.switch, event.upload.done, event.user.add, event.user.del, event.user.refresh, event.user.update,
+ sas.realresult.event, server.delete.event, taskdata.add, taskdata.delete, taskdata.update]

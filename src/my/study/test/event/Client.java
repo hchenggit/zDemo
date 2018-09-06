@@ -2,7 +2,13 @@ package my.study.test.event;
 
 import java.util.Observable;
 import java.util.Observer;
-
+/**
+ * https://www.cnblogs.com/luminji/p/6944526.html
+ * @author huangch
+ * Since:JDK 7
+ * Date:2018-7-13обнГ4:17:16
+ * @Copyright2018,huangch@szinfinova.com All Rights Reserved
+ */
 public class Client {
 	public static void main(String[] args) {
         Student student1= new Student("уехЩ");
